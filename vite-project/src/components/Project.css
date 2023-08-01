@@ -1,0 +1,23 @@
+.project-img {
+    height: 300px;
+    border-radius: 30px;
+}
+
+.project-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.info {
+    height: 300px;
+    width: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}

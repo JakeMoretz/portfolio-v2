@@ -1,0 +1,11 @@
+.about-container {
+    height: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects {
+    text-align: center;
+}
