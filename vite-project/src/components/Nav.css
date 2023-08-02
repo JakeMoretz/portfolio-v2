@@ -2,6 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;   
+    position: sticky;
+    top: 0;
+    color: white;
+    background: rgba(0, 0, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
 
 .links {
@@ -9,8 +16,8 @@
     gap: 30px;
 }
 
-a {
+.Link {
     text-decoration: none;
-    color: black;
+    color: white;
     cursor: pointer;
 }

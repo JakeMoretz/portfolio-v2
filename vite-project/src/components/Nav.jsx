@@ -1,4 +1,6 @@
 import './Nav.css'
+import { Link } from 'react-scroll'
+
 
 export default function Nav() {
     return(
@@ -7,10 +9,12 @@ export default function Nav() {
                 <h2>JM</h2>
             </div>
             <div className="links">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
+                
+                <Link to="home" smooth={true} duration={500} className="Link">Home</Link>
+                <Link to="about" smooth={true} duration={500} className="Link">About</Link>
+                <Link to="project" smooth={true} duration={500} className="Link">Projects</Link>
+                <Link to="contact" smooth={true} duration={500} className="Link">Contact</Link>
+                
             </div>
         </nav>
     )

@@ -4,6 +4,6 @@ export default [
         title: "Name of project",
         description: "description",
         stack: 'Tech stack used',
-        img: "./random.jpg"
+        img: "./paint.png"
     }
 ]

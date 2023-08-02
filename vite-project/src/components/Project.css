@@ -1,5 +1,6 @@
 .project-img {
     height: 300px;
+    width: 350px;
     border-radius: 30px;
 }
 
@@ -11,6 +12,7 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 30px;
     margin-bottom: 30px;
+    margin: 30px;
 }
 
 .info {

@@ -1,0 +1,31 @@
+footer {
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.year{
+
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mail {
+    height: 25px;
+}
+
+.linkedin {
+    height: 23px;
+}
+
+.github {
+    height: 25px;
+}

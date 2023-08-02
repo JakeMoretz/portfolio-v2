@@ -2,6 +2,7 @@
 import Nav from './components/Nav'
 import About from './components/About'
 import Project from './components/Project'
+import Contact from './components/Contact'
 import data from './projectData'
 import './App.css'
 
@@ -19,12 +20,18 @@ export default function App() {
         )
     })
     return (
-        <main className='main'>
-            <Nav />
-            <About />
+        <main id="home"className='main'>
+           <Nav />
+           <div id ="about">
+                <About />
+            </div>
+           <div id="project">
+                {projectCard}
+            </div>
            {projectCard}
            {projectCard}
-           {projectCard}
+           <div id='contact'><Contact /></div>
+           
         </main>
     )
 }
