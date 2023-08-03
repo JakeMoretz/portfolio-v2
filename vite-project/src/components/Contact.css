@@ -1,14 +1,15 @@
 footer {
-   height: 100px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-  
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(161, 158, 158);
 }
 
-.year{
-
+.year {
+    font-size: 14px;
 }
 
 .contact-links {
@@ -20,12 +21,18 @@ footer {
 
 .mail {
     height: 25px;
+    filter: invert(87%) sepia(0%) saturate(2879%) hue-rotate(152deg)
+        brightness(70%) contrast(114%);
 }
 
 .linkedin {
     height: 23px;
+    filter: invert(87%) sepia(0%) saturate(2879%) hue-rotate(152deg)
+        brightness(70%) contrast(114%);
 }
 
 .github {
     height: 25px;
+    filter: invert(87%) sepia(0%) saturate(2879%) hue-rotate(152deg)
+        brightness(70%) contrast(114%);
 }

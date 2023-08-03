@@ -1,9 +1,10 @@
 * {
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
     margin: 0;
+    background-color: black;
     
 }
 
