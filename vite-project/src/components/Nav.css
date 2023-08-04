@@ -36,3 +36,14 @@
 .Link:hover:after {
     width: 100%;
 }
+
+@media(max-width:700px){
+    .links {
+        position: fixed;
+        inset: 0 0% 40% 70%;
+        background-color: rgb(3, 3, 3);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
