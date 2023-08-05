@@ -8,7 +8,7 @@ export default function About() {
                 <section className="about-container">
                     <h3>Hi, My name is </h3>
                     <h1>Jake Moretz</h1>
-                    <h3>A frontend developer</h3>
+                    <h3 className="frontend">A frontend developer</h3>
                 </section>
             </div>
             <h3 className="about">About</h3>

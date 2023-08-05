@@ -1,5 +1,5 @@
 // import React from 'react'
-import React from 'react'
+
 import Nav from './components/Nav';
 import About from './components/About';
 import Project from './components/Project';
@@ -21,15 +21,13 @@ export default function App() {
         );
     });
 
-  
-        
     return (
         <main id="home" className="main">
-            <Nav />           
-            <About />           
+            <Nav />
+            <About />
             <div id="about">
                 <Info />
-            </div>            
+            </div>
             <div id="project">{projectCard}</div>
             {projectCard}
             {projectCard}
