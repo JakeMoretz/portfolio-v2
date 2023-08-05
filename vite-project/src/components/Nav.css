@@ -6,7 +6,7 @@ nav {
     top: 0;
     /* color: rgb(161, 158, 158); */
     /* color: rgb(174, 121, 24); */
-    color: rgb(161, 158, 158);
+    color: rgb(196, 195, 195);
     background-color: black;
     padding-left: 30px;
     padding-right: 30px;
@@ -21,7 +21,7 @@ nav {
 .Link {
     position: relative;
     text-decoration: none;
-    color: rgb(161, 158, 158);
+    color: rgb(196, 195, 195);
     cursor: pointer;
 }
 
@@ -83,6 +83,6 @@ nav {
     }
 
     .Link {
-        color: white;
+        color: rgb(196, 195, 195);
     }
 }

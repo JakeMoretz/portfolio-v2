@@ -1,0 +1,15 @@
+.skill-img {
+    filter: invert(87%) sepia(0%) saturate(2879%) hue-rotate(152deg)
+    brightness(70%) contrast(114%);
+    height: 50px;
+    width: 50px;
+}
+
+.skill-text{
+    color: white;
+}
+
+
+
+
+

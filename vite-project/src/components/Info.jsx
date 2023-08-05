@@ -31,7 +31,6 @@ export default function Info() {
                     individual.
                 </p>
             </section>
-            <h3 className="projects">Projects</h3>
         </>
     );
 }

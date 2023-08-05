@@ -11,7 +11,6 @@ export default function About() {
                     <h3 className="frontend">A frontend developer</h3>
                 </section>
             </div>
-            <h3 className="about">About</h3>
         </>
     )
 }

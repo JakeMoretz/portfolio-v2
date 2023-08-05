@@ -8,7 +8,14 @@ body{
     
 }
 
-.main{
+h3{
+   color: white;
+   text-align: center;
    
+}
+
+.skills {
    
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
 }
