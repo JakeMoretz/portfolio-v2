@@ -5,7 +5,7 @@ export default [
         description: 'description',
         stack: 'Tech stack used',
         img: './paint.png',
-        live: 'https://github.com/JakeMoretz/portfolio-v2',
+        live: '',
         code: '',
     },
 ];
