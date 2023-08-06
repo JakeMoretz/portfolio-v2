@@ -2,15 +2,13 @@ import './Nav.css';
 import { Link } from 'react-scroll';
 import React from 'react';
 
-
 export default function Nav() {
-
     const [showMenu, setMenu] = React.useState();
 
     function display() {
-        setMenu(value => !value)
+        setMenu((value) => !value);
     }
-  
+
     return (
         <nav className="nav">
             <div className="logo">
@@ -21,11 +19,21 @@ export default function Nav() {
                 <img src="./burger.png" alt="" className="burger-img" />
             </button>
 
-            <div className={`links ${showMenu ? "toggle" : "" }`} >
-                <Link to="home" smooth={true} duration={500} className="Link">
+            <div className={`links ${showMenu ? 'toggle' : ''}`}>
+                <Link 
+                    to="home" 
+                    smooth={true} 
+                    duration={500} 
+                    className="Link"
+                >
                     Home
                 </Link>
-                <Link to="about" smooth={true} duration={500} className="Link">
+                <Link 
+                    to="about" 
+                    smooth={true} 
+                    duration={500} 
+                    className="Link"
+                >
                     About
                 </Link>
                 <Link
