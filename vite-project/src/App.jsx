@@ -6,7 +6,7 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import Info from './components/Info';
 import Skills from './components/Skills';
-import skillData from './skills.js'
+import skillData from './skills.js';
 import data from './projectData';
 import './App.css';
 
@@ -26,31 +26,21 @@ export default function App() {
     });
 
     const skillElement = skillData.map((item) => {
-        return (
-            <Skills
-                key={item.id}
-                skill={item.skill}
-                text={item.text}
-            />  
-        )
-    })
+        return <Skills key={item.id} skill={item.skill} text={item.text} />;
+    });
 
     return (
         <main id="home" className="main">
             <Nav />
             <About />
-            <h3>About</h3>
+            <h3 className="info-title">About</h3>
             <div id="about">
                 <Info />
             </div>
-            <h3>Skills</h3>
-            <div className="skills">
-                {skillElement}
-            </div>
-            <h3>Project</h3>
-            <div id="project">
-                {projectCard}
-            </div>
+            <h3 className="info-title">Skills</h3>
+            <div className="skills">{skillElement}</div>
+            <h3 className="info-title">Projects</h3>
+            <div id="project">{projectCard}</div>
             {projectCard}
             {projectCard}
             <div id="contact">

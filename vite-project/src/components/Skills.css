@@ -1,15 +1,22 @@
 .skill-img {
     filter: invert(87%) sepia(0%) saturate(2879%) hue-rotate(152deg)
-    brightness(70%) contrast(114%);
+        brightness(70%) contrast(114%);
     height: 50px;
     width: 50px;
 }
 
-.skill-text{
-    color: white;
+.skill-text {
+    color: rgb(196, 195, 195);
+    letter-spacing: 1px;
 }
 
-
-
-
-
+.skill-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(159, 140, 164, 0.4) 0px 8px 50px;
+    height: 150px;
+    border-radius: 30px;
+    padding-top: 8px;
+}
