@@ -1,7 +1,7 @@
 
 Portfolio Project: 
-
 Responsive React Website with Vite
+
 Welcome to my portfolio project! This repository showcases a responsive website built using React and Vite. The website is designed to be accessible and visually appealing on all platforms, ensuring a seamless user experience across various devices and screen sizes.
 
 Project Overview
