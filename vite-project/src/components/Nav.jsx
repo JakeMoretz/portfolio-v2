@@ -3,10 +3,14 @@ import { Link } from 'react-scroll';
 import React from 'react';
 
 export default function Nav() {
-    const [showMenu, setMenu] = React.useState();
+    const [showMenu, setMenu] = React.useState(false);
 
     function display() {
         setMenu((value) => !value);
+    }
+
+    function hideMenu() {
+        setMenu(false);
     }
 
     return (
@@ -20,20 +24,10 @@ export default function Nav() {
             </button>
 
             <div className={`links ${showMenu ? 'toggle' : ''}`}>
-                <Link 
-                    to="home" 
-                    smooth={true} 
-                    duration={500} 
-                    className="Link"
-                >
+                <Link to="home" smooth={true} duration={500} className="Link" onClick={hideMenu}>
                     Home
                 </Link>
-                <Link 
-                    to="about" 
-                    smooth={true} 
-                    duration={500} 
-                    className="Link"
-                >
+                <Link to="about" smooth={true} duration={500} className="Link" onClick={hideMenu}>
                     About
                 </Link>
                 <Link
@@ -41,6 +35,7 @@ export default function Nav() {
                     smooth={true}
                     duration={500}
                     className="Link"
+                    onClick={hideMenu}
                 >
                     Projects
                 </Link>
@@ -49,6 +44,7 @@ export default function Nav() {
                     smooth={true}
                     duration={500}
                     className="Link"
+                    onClick={hideMenu}
                 >
                     Contact
                 </Link>

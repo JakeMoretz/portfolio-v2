@@ -64,6 +64,10 @@ nav {
         transition: all .5s ease-in-out;
         
     }
+    
+    .hidden {
+        display: none;
+      }
 
     .toggle {
         transform: translateX(0%);
