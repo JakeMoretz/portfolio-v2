@@ -2,7 +2,7 @@ export default [
     {
         id: '1',
         title: 'Portfolio Project',
-        description: 'Since you are already here, might as well take a look around',
+        description: "This very portfolio you're viewing is also a project I've developed. It's designed to be customizable and easy to use.",
         stack: 'Built with: React.js, CSS',
         img: './portfolio-img.png',
         live: 'https://jakemoretz.github.io/portfolio-v2/',
@@ -11,7 +11,7 @@ export default [
     {
         id: '2',
         title: 'Mini Weather App',
-        description: 'Here we have a mini weather app, fetching data from a Weather API. We can now display current temp, humidity, and wind mph with a single button click',
+        description: 'Here we have a mini weather app, fetching data from a Weather API. We can now display current temp, humidity, and wind mph with a single button click.',
         stack: 'Built with: HTML, CSS, Javascript',
         img: './weather.png',
         live: 'https://jakemoretz.github.io/weather-app/',
