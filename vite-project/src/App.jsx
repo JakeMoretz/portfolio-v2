@@ -39,9 +39,7 @@ export default function App() {
             <h3 className="info-title">Skills</h3>
             <div className="skills">{skillElement}</div>
             <h3 className="info-title">Projects</h3>
-            <div id="project">{projectCard}</div>
-            {projectCard}
-            {projectCard}
+            <div id="project">{projectCard}</div>         
             <div id="contact">
                 <Contact />
             </div>
