@@ -14,7 +14,7 @@ export default function Project(props) {
                         <button className ="btn">View Live</button>
                     </a>
 
-                    <a href="">
+                    <a href={props.code}>
                         <button className ="btn">View Code</button>
                     </a>
                     
