@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 
+import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Project from './components/Project';
@@ -10,6 +12,12 @@ import data from './projectData';
 import './App.css';
 
 export default function App() {
+    const [darkMode, setDarkMode] = React.useState(false);
+
+    function toggleDarkMode() {
+        setDarkMode((prevState) => !prevState);
+    }
+
     const projectCard = data.map((item) => {
         return (
             <Project
@@ -20,28 +28,38 @@ export default function App() {
                 img={item.img}
                 live={item.live}
                 code={item.code}
+                darkMode={darkMode}
             />
         );
     });
 
     const skillElement = skillData.map((item) => {
-        return <Skills key={item.id} skill={item.skill} text={item.text} />;
+        return (
+            <Skills
+                key={item.id}
+                skill={item.skill}
+                text={item.text}
+                darkMode={darkMode}
+            />
+        );
     });
 
     return (
-        <main id="home" className="main">
-            <Nav />
-            <About />
-            <h3 className="info-title">About</h3>
+        <main id="home" className={darkMode ? 'light-main' : 'main'}>
+            <Nav darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+            <About darkMode={darkMode} />
+            <h3 className={darkMode ? 'light-about' : 'info-title'}>About</h3>
             <div id="about">
-                <Info />
+                <Info darkMode={darkMode} />
             </div>
-            <h3 className="info-title">Skills</h3>
+            <h3 className={darkMode ? 'light-about' : 'info-title'}>Skills</h3>
             <div className="skills">{skillElement}</div>
-            <h3 className="info-title">Projects</h3>
-            <div id="project">{projectCard}</div>         
+            <h3 className={darkMode ? 'light-about' : 'info-title'}>
+                Projects
+            </h3>
+            <div id="project">{projectCard}</div>
             <div id="contact">
-                <Contact />
+                <Contact darkMode={darkMode} />
             </div>
         </main>
     );

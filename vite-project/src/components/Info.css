@@ -9,6 +9,22 @@
     border-radius: 30px;
     color: rgb(161, 158, 158);
 }
+
+section.light {
+    color: rgb(2, 2, 2);
+    background-color: rgb(244, 244, 244);
+    width: 70vw;
+    text-align: center;
+    line-height: 1.5;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
 .projects {
     text-align: center;
     margin-top: 100px;

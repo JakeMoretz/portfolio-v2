@@ -3,19 +3,19 @@ import './Project.css';
 
 export default function Project(props) {
     return (
-        <div className="project-wrapper">
+        <div className={props.darkMode ? "light-project-wrapper" : "project-wrapper"}>
             <section className="info">
-                <h3 className="project-title">{props.title}</h3>
-                <p className="project-description">{props.description}</p>
-                <p className="project-stack">{props.stack}</p>
+                <h3 className={props.darkMode ? "light-title" : ""}>{props.title}</h3>
+                <p className={props.darkMode ? "light-project-description" : "project-description"}>{props.description}</p>
+                <p className={props.darkMode ? "light-project-stack" : "project-stack"}><span className={props.darkMode ? "light-title" : ""} >Built with: </span>{props.stack}</p>
                <span>
 
                     <a href={props.live}>
-                        <button className ="btn">View Live</button>
+                        <button className={props.darkMode ? "light-btn" : "btn"}>View Live</button>
                     </a>
 
                     <a href={props.code}>
-                        <button className ="btn">View Code</button>
+                        <button className={props.darkMode ? "light-btn" : "btn"}>View Code</button>
                     </a>
                     
                </span>

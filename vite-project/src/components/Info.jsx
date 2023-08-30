@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
 import './Info.css';
 
-export default function Info() {
+export default function Info(props) {
     return (
         <>
-            <section className="about-info">
+            <section className={props.darkMode ? "light": "about-info"}>
                 <p>
                     Allow me to introduce myself in a way that highlights my
                     uniqueness. I go by the name Jake Moretz, a passionate

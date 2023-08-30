@@ -5,6 +5,11 @@
     width: 50px;
 }
 
+.light-skill-img {
+    height: 50px;
+    width: 50px;
+}
+
 .skill-text {
     color: rgb(196, 195, 195);
     letter-spacing: 1px;
@@ -20,6 +25,23 @@
     border-radius: 30px;
     padding-top: 8px;
     transition: all .2s ease-in-out;
+}
+
+.light-skill-wrapper {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 30px;
+    padding-top: 8px;
+    transition: all .2s ease-in-out;
+    background-color: rgb(244, 244, 244);
+}
+
+.light-skill-wrapper:hover {
+    transform: scale(1.1);
 }
 
 .skill-wrapper:hover {

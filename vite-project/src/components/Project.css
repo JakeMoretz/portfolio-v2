@@ -7,12 +7,30 @@
 
 .project-wrapper {
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
     box-shadow: rgba(159, 140, 164, 0.4) 0px 8px 50px;
     border-radius: 30px;
     margin-bottom: 30px;
     margin: 30px;
+}
+
+.light-project-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    margin: 30px;
+    background-color: rgb(244, 244, 244);
+}
+
+.light-title {
+    color: black;
+    font-weight: 600;
 }
 
 .info {
@@ -22,7 +40,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #a19e9e;
+    color: rgb(116, 116, 116);
+}
+
+span {
+    font-weight: 500;
+    color: rgb(196, 195, 195);
 }
 
 section > h3 {
@@ -31,29 +54,58 @@ section > h3 {
 
 .btn {
     margin: 20px;
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 120px;
     border-radius: 10px;
-    border: 1px solid rgb(196, 195, 195);
+    border: 1px solid rgb(196, 195, 195); 
     color: rgb(196, 195, 195);
     background-color: transparent;
+    /* color: rgb(255, 255, 255);
+    background-color: rgb(0, 145, 255);
+    border: none; */
     cursor: pointer;
+    font-size: 0.85em;
+    font-weight: 600;
 }
 
 .btn:hover {
-    background-color:rgb(255, 255, 255, 0.1)
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.light-btn {
+    margin: 20px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 145, 255);
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.85em;
 }
 
 .project-description {
     margin-inline: 30px;
-    font-size: .95em;
+    font-size: 0.95em;
     text-align: center;
 }
 
+.light-project-description {
+    margin-inline: 30px;
+    font-size: 0.95em;
+    text-align: center;
+    color: rgb(116, 116, 116);
+}
 
-
-@Media(max-width: 750px) {
+@media (max-width: 750px) {
     .project-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .light-project-wrapper {
         display: flex;
         flex-direction: column;
     }

@@ -9,6 +9,13 @@ footer {
     margin-bottom: 20px;
 }
 
+.light-footer {
+    background-color: rgb(244, 244, 244);
+    margin-bottom: 0;
+    color: black;
+    padding-bottom: 20px;
+}
+
 .year {
     font-size: 14px;
 }
@@ -26,14 +33,26 @@ footer {
         brightness(70%) contrast(114%);
 }
 
+.light-mail {
+    height: 30px;
+}
+
 .linkedin {
     height: 28px;
     filter: invert(87%) sepia(0%) saturate(2879%) hue-rotate(152deg)
         brightness(70%) contrast(114%);
 }
 
+.light-linkedin {
+    height: 28px;
+}
+
 .github {
     height: 30px;
     filter: invert(87%) sepia(0%) saturate(2879%) hue-rotate(152deg)
         brightness(70%) contrast(114%);
+}
+
+.light-github {
+    height: 30px;
 }
