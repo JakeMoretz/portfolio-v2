@@ -23,6 +23,4 @@ Responsive Design: The website layout adjusts dynamically to fit various screen 
 
 Project Showcase: A section dedicated to showcasing my portfolio projects, complete with project descriptions, images, and links to the corresponding project repositories and live demos.
 
-Skills Presentation: Highlighting my skills and expertise using visually appealing graphics and concise descriptions.
-
 Contact Information: A contact section with various methods for visitors to get in touch with me, fostering potential collaborations and networking opportunities.
