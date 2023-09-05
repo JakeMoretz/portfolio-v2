@@ -189,7 +189,7 @@ input:checked + .slider:before {
     color: black;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
     .links {
         position: fixed;
         inset: 5% 0% 55% 70%;
@@ -210,6 +210,7 @@ input:checked + .slider:before {
         color: black;
         font-weight: 600;
         border-bottom: 10px solid rgb(0, 145, 255);
+        cursor: pointer;
     }
 
     .hidden {
@@ -232,5 +233,11 @@ input:checked + .slider:before {
 
     .Link {
         color: rgb(196, 195, 195);
+    }
+}
+
+@media (max-width: 500px) {
+    .switch {
+        left: 130px;
     }
 }
