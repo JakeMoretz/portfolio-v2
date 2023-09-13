@@ -85,6 +85,7 @@ section > h3 {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 0.85em;
+    
 }
 
 .project-description {
@@ -132,18 +133,18 @@ section > h3 {
 
     .light-btn {
         height: 30px;
-        width: 80px;
+        width: 90px;
         font-size: 10px;
         margin: 10px;
     }
 
     .project-img {
        height: 180px;
-       width: 100%;
-       margin: 0;
+       width: auto;
        margin-bottom: 10px;
-       
     }
+
+
 
     .project-stack {
         font-size: .75em;
