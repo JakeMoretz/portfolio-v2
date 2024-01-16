@@ -7,7 +7,7 @@ Welcome to my portfolio project! This repository showcases a responsive website 
 Project Overview
 This portfolio project demonstrates my skills and creativity as a developer through a visually engaging and user-friendly website. The project highlights various aspects of my work, including my projects, skills, and contact information, making it easier for potential employers, collaborators, or clients to learn more about me and my work.
 
-Technologies Used
+
 The key technologies and tools used in this project include:
 
 React: A popular JavaScript library for building user interfaces.
