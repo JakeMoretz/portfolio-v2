@@ -11,12 +11,12 @@ export default [
     },
     {
         id: '3',
-        skill: './html5.png',
+        skill: './html.png',
         text: 'HTML 5',
     },
     {
         id: '4',
-        skill: './css3.png',
+        skill: './css.png',
         text: 'CSS 3',
     },
     {
@@ -28,5 +28,15 @@ export default [
         id: '6',
         skill: './npm.png',
         text: 'NPM',
+    },
+    {
+        id: '7',
+        skill: './firebase.png',
+        text: 'Firebase',
+    },
+    {
+        id: '8',
+        skill: './vscode.png',
+        text: 'VS Code',
     },
 ];

@@ -30,3 +30,9 @@ section.light {
     margin-top: 100px;
     color: rgb(196, 195, 195);
 }
+
+@media (max-width: 780px) {
+    .about-info {
+        font-size: 0.85rem;
+    }
+}
