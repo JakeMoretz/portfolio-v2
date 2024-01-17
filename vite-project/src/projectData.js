@@ -10,6 +10,15 @@ export default [
     },
     {
         id: '2',
+        title: 'Toms Diner',
+        description: "Effortlessly add your favorite items to your order. When you're ready simply click on the pay button, and a secure modal will appear for seamless credit card payments. To ensure a smooth transaction, all other buttons are temporarily disabled while the payment modal takes center stage.",
+        stack: 'Javascript, CSS, HTML',
+        img: './diner.png',
+        live: 'https://jakemoretz.github.io/diner-app/',
+        code: 'https://github.com/JakeMoretz/diner-app',
+    },
+    {
+        id: '3',
         title: 'Portfolio Project',
         description: "This very portfolio you're viewing is also a project I've developed. It's designed to be customizable and easy to use.",
         stack: 'React.js, CSS',
@@ -18,7 +27,7 @@ export default [
         code: 'https://github.com/JakeMoretz/portfolio-v2/tree/main/vite-project',
     },
     {
-        id: '3',
+        id: '4',
         title: 'Task List App',
         description: 'Task List is a simple web application that helps you manage your tasks. You can add, complete, delete, and reset tasks easily using Firebase Firestore for data storage.',
         stack: 'React.js, CSS, Firebase',

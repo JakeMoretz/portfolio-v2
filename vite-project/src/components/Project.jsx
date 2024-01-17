@@ -7,7 +7,7 @@ export default function Project(props) {
             <section className="info">
                 <h3 className={props.darkMode ? "light-title" : ""}>{props.title}</h3>
                 <p className={props.darkMode ? "light-project-description" : "project-description"}>{props.description}</p>
-                <p className={props.darkMode ? "light-project-stack" : "project-stack"}><span className={props.darkMode ? "light-title" : ""} >Built with: </span>{props.stack}</p>
+                <p className={props.darkMode ? "light-project-stack" : "project-stack"}><span className={props.darkMode ? "light-title" : ""} >Built with:  </span>{props.stack}</p>
                <span>
 
                     <a href={props.live}>
