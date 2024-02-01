@@ -1,6 +1,5 @@
 .about-info {
-    width: 70vw;
-    text-align: center;
+    /* text-align: center; */
     line-height: 1.5;
     margin-right: auto;
     margin-left: auto;
@@ -8,6 +7,8 @@
     padding: 20px;
     border-radius: 8px;
     color: rgb(161, 158, 158);
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 section.light {

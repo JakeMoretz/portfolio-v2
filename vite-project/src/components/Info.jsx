@@ -5,15 +5,15 @@ import './Info.css';
 export default function Info(props) {
     return (
         <>
-            <section className={props.darkMode ? "light": "about-info"}>
+            <section className={props.darkMode ? 'light' : 'about-info'}>
                 <p>
                     Allow me to introduce myself in a way that highlights my
                     uniqueness. I go by the name Jake Moretz, a passionate
                     developer hailing from Atlanta, known for my self-taught
-                    journey in the world of web development. Over the course of
-                    nearly a year, I've immersed myself in the realm of
-                    front-end technologies, honing my skills and gaining
-                    expertise.
+                    journey in the world of web development. Since the fall of
+                    2022, I have been deeply engaged in the world of front-end
+                    technologies, continually refining my skills and gaining
+                    more knowledge everyday.
                 </p>
                 <br />
                 <p>

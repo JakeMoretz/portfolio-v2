@@ -57,7 +57,6 @@ nav.light {
 
 .light-mode-link {
     cursor: pointer;
-   
 }
 
 /* .light-mode-link:after {
@@ -74,12 +73,10 @@ nav.light {
     width: 50%;
 } */
 
-
 .Link > .light {
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
-
 
 .Link:after {
     content: '';
@@ -98,8 +95,8 @@ nav.light {
 .burger-img {
     height: 25px;
     width: 25px;
-    filter: invert(87%) sepia(0%) saturate(2879%) hue-rotate(152deg)
-        brightness(70%) contrast(114%);
+    filter: invert(96%) sepia(5%) saturate(20%) hue-rotate(97deg)
+        brightness(91%) contrast(94%);
     margin-top: -5px;
     cursor: pointer;
 }
