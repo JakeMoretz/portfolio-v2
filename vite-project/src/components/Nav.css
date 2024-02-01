@@ -4,7 +4,8 @@ nav {
     align-items: center;
     position: sticky;
     top: 0;
-    color: rgb(213, 212, 212);
+    color: #dddddd;
+    /* color: rgb(93, 168, 203); */
     background-color: black;
     padding-left: 30px;
     padding-right: 30px;
@@ -29,8 +30,9 @@ nav {
 }
 
 nav.light {
-    background-color: rgb(244, 244, 244);
-    color: black;
+    background-color: #ececec;
+    color: rgb(16, 16, 16);
+    border-bottom: 1px solid rgb(6, 6, 6);
 }
 
 .links {
@@ -38,21 +40,46 @@ nav.light {
     gap: 30px;
 }
 
-.links.light {
+/* .links.light {
     cursor: pointer;
-}
+} */
 
 .Link {
     position: relative;
     text-decoration: none;
-    color: rgb(161, 158, 158);
+    color: #dddddd;
     cursor: pointer;
 }
 
-.Link.light {
-    color: black;
+/* .light {
+    cursor: pointer;
+} */
+
+.light-mode-link {
+    cursor: pointer;
+   
+}
+
+/* .light-mode-link:after {
+    content: '';
+    position: absolute;
+    background-color: rgb(34, 34, 34);
+    height: 2px;
+    width: 0px;
+    left: 0;
+    bottom: -10px;
+}
+
+.light-mode-link:hover:after{
+    width: 50%;
+} */
+
+
+.Link > .light {
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
+
 
 .Link:after {
     content: '';
@@ -200,7 +227,7 @@ input:checked + .slider:before {
         align-items: center;
         margin-top: 20px;
         z-index: 1000;
-        border-bottom-left-radius: 30px;
+        border-bottom-left-radius: 8px;
         transform: translateX(100%);
         transition: all 0.5s ease-in-out;
     }
@@ -232,7 +259,7 @@ input:checked + .slider:before {
     }
 
     .Link {
-        color: rgb(196, 195, 195);
+        color: rgb(226, 226, 226);
     }
 }
 

@@ -7,9 +7,9 @@ export default function About(props) {
         <>
             <div className={props.darkMode ? "light-about-wrapper" : "about-wrapper"}>
                 <section className={props.darkMode ? "light-about-container" : "about-container"}>
-                    <h3 className={props.darkMode ? "light-intro" : ""}>Hi, My name is </h3>
+                    <h3 className={props.darkMode ? "light-intro" : "intro"}>Hi, My name is </h3>
                     <h1>Jake Moretz</h1>
-                    <h3 className={props.darkMode ? "light-intro" : ""}>A frontend developer</h3>
+                    <h3 className={props.darkMode ? "light-intro" : "intro"}>A frontend developer</h3>
                 </section>
             </div>
         </>

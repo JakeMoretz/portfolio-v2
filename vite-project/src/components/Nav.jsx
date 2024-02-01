@@ -20,7 +20,7 @@ export default function Nav(props) {
                 <h2>JM</h2>
             </div>
 
-            <div className="switch-wrapper">
+            {/* <div className="switch-wrapper">
                 <label className="switch">
                     <span
                         className={
@@ -39,7 +39,7 @@ export default function Nav(props) {
                         Dark
                     </span>
                 </label>
-            </div>
+            </div> */}
 
             <button onClick={display} className="toggle-links">
                 <img
@@ -58,7 +58,7 @@ export default function Nav(props) {
                     to="home"
                     smooth={true}
                     duration={500}
-                    className={props.darkMode ? 'light' : 'Link'}
+                    className={props.darkMode ? 'light-mode-link' : 'Link'}
                     onClick={hideMenu}
                 >
                     Home
@@ -67,7 +67,7 @@ export default function Nav(props) {
                     to="about"
                     smooth={true}
                     duration={500}
-                    className={props.darkMode ? 'light' : 'Link'}
+                    className={props.darkMode ? 'light-mode-link' : 'Link'}
                     onClick={hideMenu}
                 >
                     About
@@ -76,7 +76,7 @@ export default function Nav(props) {
                     to="project"
                     smooth={true}
                     duration={500}
-                    className={props.darkMode ? 'light' : 'Link'}
+                    className={props.darkMode ? 'light-mode-link' : 'Link'}
                     onClick={hideMenu}
                 >
                     Projects
@@ -85,7 +85,7 @@ export default function Nav(props) {
                     to="contact"
                     smooth={true}
                     duration={500}
-                    className={props.darkMode ? 'light' : 'Link'}
+                    className={props.darkMode ? 'light-mode-link' : 'Link'}
                     onClick={hideMenu}
                 >
                     Contact

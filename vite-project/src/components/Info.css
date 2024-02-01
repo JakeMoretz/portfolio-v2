@@ -6,13 +6,15 @@
     margin-left: auto;
     box-shadow: rgba(159, 140, 164, 0.4) 0px 8px 50px;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 8px;
     color: rgb(161, 158, 158);
 }
 
 section.light {
     color: rgb(2, 2, 2);
-    background-color: rgb(244, 244, 244);
+    /* background-color: rgb(244, 244, 244); */
+    /* background-color: rgba(9,30,66,0.06); */
+    /* color: white; */
     width: 70vw;
     text-align: center;
     line-height: 1.5;
@@ -22,7 +24,7 @@ section.light {
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 8px;
 }
 
 .projects {
