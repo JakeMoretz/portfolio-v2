@@ -129,9 +129,9 @@ section > h3 {
     .about-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: end;
         padding: 30px;
-        padding-top: 350px;
+        /* padding-top: 350px; */
         position: relative;
         color: rgb(196, 195, 195);
         background-color: rgb(0, 0, 0, 0);
@@ -155,7 +155,7 @@ section > h3 {
     .about-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: end;
         padding: 30px;
         /* padding-top: 370px; */
         position: relative;
