@@ -124,6 +124,7 @@ section > h3 {
         background-position: center top;
         height: 400px;
         width: 100vw;
+        margin-bottom: 150px;
     }
 
     .about-container {
