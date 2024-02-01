@@ -8,7 +8,7 @@ export default function Info(props) {
             <section className={props.darkMode ? 'light' : 'about-info'}>
                 <p>
                     Allow me to introduce myself in a way that highlights my
-                    uniqueness. I go by the name Jake Moretz, a passionate
+                    uniqueness. My name is Jake Moretz, a passionate
                     developer hailing from Atlanta, known for my self-taught
                     journey in the world of web development. Since the fall of
                     2022, I have been deeply engaged in the world of front-end
