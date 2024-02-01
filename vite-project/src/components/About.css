@@ -1,5 +1,5 @@
 .about-container {
-    height: 780px;
+    height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,9 +36,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url(/star.jpg) no-repeat center center fixed;
+    background: url(/star.jpg) no-repeat;
     background-size: contain;
-    height: 800px;
+    background-position: center top;
+    height: 500px;
     width: 100vw;
 }
 
