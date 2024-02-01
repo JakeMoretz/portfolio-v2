@@ -73,7 +73,7 @@ section > h3 {
     font-weight: 400;
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
     .about-wrapper {
         display: flex;
         justify-content: space-between;
@@ -85,7 +85,7 @@ section > h3 {
         height: 700px;
         width: 100vw;
     }
-}
+} */
 
 @media (max-width: 1000px) {
     .about-wrapper {
@@ -131,7 +131,6 @@ section > h3 {
         flex-direction: column;
         justify-content: end;
         padding: 30px;
-        /* padding-top: 350px; */
         position: relative;
         color: rgb(196, 195, 195);
         background-color: rgb(0, 0, 0, 0);
